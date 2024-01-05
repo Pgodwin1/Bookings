@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./pages/Home/Home"
 import Hotels from "./pages/Hotels/Hotel"
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import List from './pages/List'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   <Router>
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/about" element={<Hotels/>} />
+      <Route path="/hotel" element={<List/>} />
     </Routes>
   </Router>
   )
