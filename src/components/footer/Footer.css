@@ -7,17 +7,24 @@
 .fLists{
     width: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
 .fList{
     list-style: none;
-    padding: 0;
-}
+    padding: 20px;
+    margin-right: 50px;
+} 
 
 .fListItem{
     margin-bottom: 10px;
     color: #003580;
     cursor: pointer;
+}
+
+.fText{
+    width: 200px;
+    margin-left: -70px;
+    text-align: center;
 }
