@@ -3,7 +3,7 @@ import "./SearchItem.css"
 const SearchItem = () => {
   return (
     <div className="SearchItem">
-        <img src="" alt="" className="siImg" />
+        <img src="https://www.hotel-lapad.hr/media/qnsfcovf/nrl_6726.jpg?mode=min&width=1920&rnd=132885638239970000" alt="" className="siImg" />
         <div className="siDesc">
             <h1 className="siTitle">Tower Street Apartments</h1>
             <span className="siDistance">500m from Center</span>

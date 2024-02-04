@@ -11,17 +11,17 @@ const Hotel = () => {
 const [slider, setSlider] = useState(0)
 const [open, setOpen] = useState(false)
   const photos = [
-      { src: "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp"
+      { src: "https://www.richmondehotels.com.ph/wp-content/uploads/2023/07/ERH-Lobby-Main-Photo-Home-Page-scaled.jpg"
+    },
+      { src: "https://www.savills.co.uk/_images/adobestock-539646437.jpg"
     },
       { src: "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp"
     },
-      { src: "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp"
+      { src: "https://images.propertypro.ng/large/affordable-and-luxurious-3-bedroom-shortlet-URFt0l1kL12U3Ere5Qo6.jpeg"
     },
-      { src: "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp"
+      { src: "https://images.nigeriapropertycentre.com/properties/images/1218017/063d0dc6a2872e-1-bedroom-luxury-apartment-mini-flats-short-let-oniru-victoria-island-lagos.jpeg"
     },
-      { src: "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp"
-    },
-      { src: "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp"
+      { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbMUpVRde2s3HEd1-5D5_o2O_cLmKHCVLfum3vGTK3ew&s"
     },
       
   ];
