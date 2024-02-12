@@ -9,6 +9,11 @@
     max-width: 1024px;
     display: flex;
     gap: 20px;
+
+    @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .listSearch{
@@ -19,6 +24,12 @@
     position: sticky;
     top: 10px;
     height: max-content;
+
+    @media screen and (max-width: 600px) {
+        position: relative;
+        margin-top: -17px;
+        height: 80px;
+    }
 }
 
 .lsTitle{

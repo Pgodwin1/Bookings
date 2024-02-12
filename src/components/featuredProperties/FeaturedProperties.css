@@ -4,6 +4,12 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .fpItem{
@@ -11,11 +17,20 @@
     gap: 10px;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 600px){
+        flex: 1;
+        margin-left: 30px;
+    }
 }
 
 .fpImg{
     width: 100%;
     height: 125px;
+
+    @media screen and (max-width: 600px) {
+        width: 90%;
+    }
 }
 
 .fpName{
@@ -41,4 +56,10 @@
 
 .fpRating>span{
     font-size: 14px;
+}
+
+.fpRating{
+    @media screen and (max-width: 600px) {
+        margin-left: 220px;
+    }
 }

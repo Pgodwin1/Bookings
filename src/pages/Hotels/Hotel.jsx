@@ -93,7 +93,9 @@ const [open, setOpen] = useState(false)
           </div>
         </div>
         <MailList />
+        <div className="mailist">
         <Footer />
+        </div>
       </div>
     </div>
   )

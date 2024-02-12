@@ -13,7 +13,7 @@ const PropertyList = () => {
         <div className="pListItem">
             <img src="https://www.shutterstock.com/image-photo/new-modern-apartment-buildings-vancouver-600nw-2326087651.jpg" alt="" className="PListImg" />
             <div className="pListTitles">
-                <h1>Apartments</h1>
+                <h1>Cribs</h1>
                 <h2>279 Hotels</h2>
             </div>
         </div>

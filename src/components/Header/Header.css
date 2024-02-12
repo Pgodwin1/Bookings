@@ -4,12 +4,23 @@
   display: flex;
   justify-content: center;   
   position: relative;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
 }
 
 .headerContainer{
   width: 100%;
   max-width: 1024px;
   margin: 20px 0px 100px 0px;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    margin: 20px 0px 100px 0px;
+  }
 }
 
 .headerContainer.listmode{
@@ -20,22 +31,50 @@
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    gap: 10px;
+    margin-left: 7px;
+  }
 }
 
 .headerListItem{
     display: flex;
     align-items: center;
     gap: 10px;
+
+    @media screen and (max-width: 600px) {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
 }
 
 .headerListItem.active{
     border: 1px solid white;
     padding: 10px;
     border-radius: 20px;
+
+    @media screen and (max-width: 600px) {
+        padding: 6px;
+    }
+}
+
+.headerTitle {
+    @media screen and (max-width: 600px){
+        font-size: 35px;
+        margin-left: 12px;
+    }
 }
 
 .headerDesc{
     margin: 20px 0px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 16px;
+        padding: 5px 20px;
+    }
 }
 
 .headerBtn{
@@ -43,8 +82,13 @@
     color: white;
     font-weight: 500;
     border: none;
+    border-radius: 9px;
     padding: 10px;
     cursor: pointer;
+
+    @media screen and (max-width: 600px) {
+        margin-left: 10px;
+    }
 }
 
 .headerSearch{
@@ -60,21 +104,53 @@
     bottom: -25px;
     width: 100%;
     max-width: 1024px;
+
+    @media screen and (max-width: 600px) {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+        width: 80%;
+        position: absolute;
+        margin-left: 35px;
+        margin-bottom: -35px;
+    }
 }
 
 .headerIcon{
     color: lightgrey;
+
+    @media screen and (max-width: 600px) {
+            margin-right: 10px;
+    }
+}
+
+#icon{
+    @media screen and (max-width: 600px) {
+        margin-left: -15px;
+    }
 }
 
 .headerSearchItem{
     display: flex;
     align-items: center;
     gap: 10px;
+
+    @media screen and (max-width: 600px){
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 5px;
+    }
 }
 
 .headerSearchInput{
     border: none;
     outline: none;
+
+    @media screen and (max-width: 600px){
+        margin-right: 35px;
+    }
 }
 
 .headerSearchText{
@@ -86,6 +162,10 @@
     position: absolute;
     top: 50px;
     z-index: 2;
+
+    @media screen and (max-width: 600px){
+        margin-left: -75px;
+    }
 }
 
 .options{
@@ -97,6 +177,11 @@
     -webkit-box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
     z-index: 2;
+
+    @media screen and (max-width: 600px){
+        top: 40px;
+        margin-top: 28px;
+    }
 }
 
 .optionItem{
